@@ -1,0 +1,12 @@
+{
+  "name": "mountebank-basic-setup",
+  "version": "1.0.0",
+  "description": "This repo will contain basic setup of mountebank",
+  "main": "index.js",
+  "repository": "https://github.com/shitalma/mountebank-basic-setup.git",
+  "author": "Shital Mane <shitalma@thoguthworks.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mountebank": "^1.15.0"
+  }
+}
