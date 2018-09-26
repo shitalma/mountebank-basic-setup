@@ -1,5 +1,8 @@
 # Dependency directories
 node_modules
 
+mb.log
+mb.pid
+
 .iml
 .idea

@@ -4,6 +4,9 @@
   "description": "This repo will contain basic setup of mountebank",
   "main": "index.js",
   "repository": "https://github.com/shitalma/mountebank-basic-setup.git",
+  "scripts": {
+    "start": "./node_modules/mountebank/bin/mb --port 2525 --allowInjection --mock --debug --configfile imposters.ejs"
+  },
   "author": "Shital Mane <shitalma@thoguthworks.com>",
   "license": "MIT",
   "dependencies": {

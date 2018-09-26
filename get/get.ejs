@@ -1,0 +1,21 @@
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/users"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json"
+        },
+        "body": "<%- stringify(filename, '/get/users.json') %>"
+      }
+    }
+  ]
+}
